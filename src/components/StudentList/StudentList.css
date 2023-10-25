@@ -1,0 +1,35 @@
+.list-item {
+  width: 300px;
+  padding: 30px;
+  margin: 0 20px 20px 0;
+  border-radius: 10px;
+  background-color: var(--lynx-white-color);
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.list-item header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-name {
+  margin: 0;
+  font-size: 20px;
+}
+
+.list-details {
+  margin: 10px 0 0 0;
+}
+
+.btn-secondary {
+  background: none;
+  border: none;
+  font-size: 16px;
+  color: var(--primary-color);
+  cursor: pointer;
+}
+
+.btn-secondary:hover {
+  color: var(--violet-color);
+}

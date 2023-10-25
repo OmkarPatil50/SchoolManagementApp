@@ -1,0 +1,132 @@
+.main-page {
+  position: relative;
+  top: 80px;
+  left: 0;
+}
+
+.sub-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sub-page section {
+  margin: 0 100px;
+}
+
+.hero-img {
+  width: 400px;
+}
+
+.page-heading {
+  margin: 40px 0 20px;
+  text-align: center;
+}
+
+.dashboard-data {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.dashboard-data p {
+  color: var(--primary-color);
+}
+
+.dashboard-data p span {
+  color: var(--black-color);
+  padding-right: 5px;
+}
+
+.dashboard-top-student-details-link {
+  font-size: 12px;
+  margin: 0 10px;
+  color: var(--primary-color);
+}
+
+.dashboard-top-student-details-link:hover {
+  color: var(--violet-color);
+}
+
+.empty-tag {
+  text-align: center;
+}
+
+/* ------------classView-------------- */
+
+.class-view-page {
+  margin: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.filters-section {
+  flex-basis: 40%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.filters-section label {
+  margin: 10px 50px;
+  color: var(--primary-color);
+  font-size: 18px;
+}
+
+.filters-section label select {
+  padding: 5px 10px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.btn-primary {
+  width: fit-content;
+  background: none;
+  border: none;
+  font-size: 16px;
+  border: 1px solid var(--primary-color);
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+  border-radius: 5px;
+  padding: 7.5px 15px;
+  margin: 20px 50px;
+  cursor: pointer;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-out;
+}
+
+.btn-primary:hover {
+  background-color: var(--violet-color);
+  border: 1px solid var(--violet-color);
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.4);
+}
+
+.btn-primary-link {
+  color: var(--secondary-color);
+}
+
+.students-list-section {
+  flex-basis: 60%;
+}
+.student-table {
+  width: 100%;
+  border: 1px solid black;
+}
+
+th {
+  color: var(--primary-color);
+}
+
+th,
+td {
+  text-align: center;
+  padding: 7.5px 15px;
+  border: 1px solid black;
+}
+
+/* -----------------------studentView--------------------- */
+
+.items-list {
+  display: flex;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,28 @@
+.flex-column {
+  height: 50vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.details-box {
+  width: 40%;
+  display: flex;
+  border-radius: 10px;
+  padding: 20px;
+  justify-content: space-around;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.details-box span {
+  color: var(--primary-color);
+}
+
+.btn-section-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-section-details button {
+  width: 150px;
+  padding: 10px;
+}
