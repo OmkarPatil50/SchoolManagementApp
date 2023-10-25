@@ -1,0 +1,2 @@
+# SchoolManagementApp
+Created with CodeSandbox
